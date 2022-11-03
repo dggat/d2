@@ -130,6 +130,12 @@ conda install -c anaconda numpy
 ----
 pip install git+https://github.com/facebookresearch/fvcore
 ----
+[IMPORTANT]
+Um COCO API zu installieren, wird Microsoft Visial C++ Version 14.0 oder höher benötigt. Wenn es nicht installiert ist, bitte den folgenden Link benutzen.
+https://visualstudio.microsoft.com/de/visual-cpp-build-tools/
+
+image::sunset.jpg["Mesa Verde Sunset, by JAVH"]
+
 [source]
 ----
 pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
