@@ -1,3 +1,5 @@
+image::Installation Detectron2.pdf["Mesa Verde Sunset, by JAVH"]
+
 = Detectron2 Installation für Windows 10 Betribssystem
 // settings:
 :idprefix:
