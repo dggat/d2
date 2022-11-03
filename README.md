@@ -14,6 +14,41 @@ ifdef::env-github[]
 endif::[]
 :reproducible:
 :hide-uri-scheme:
+// Variables:
+:release-version: 2.0.18
+// URLs:
+:url-org: https://github.com/asciidoctor
+:url-repo: {url-org}/asciidoctor
+:url-asciidoctorj: {url-org}/asciidoctorj
+:url-asciidoctorjs: {url-org}/asciidoctor.js
+:url-gradle-plugin: {url-org}/asciidoctor-gradle-plugin
+:url-maven-plugin: {url-org}/asciidoctor-maven-plugin
+:url-asciidoclet: {url-org}/asciidoclet
+:url-project: https://asciidoctor.org
+ifdef::env-site[:url-project: link:]
+:url-docs: https://docs.asciidoctor.org
+:url-news: {url-project}/news
+:url-manpage: {url-project}/man/asciidoctor
+:url-issues: {url-repo}/issues
+:url-contributors: {url-repo}/graphs/contributors
+:url-rel-file-base: link:
+:url-rel-tree-base: link:
+ifdef::env-site,env-yard[]
+:url-rel-file-base: {url-repo}/blob/HEAD/
+:url-rel-tree-base: {url-repo}/tree/HEAD/
+endif::[]
+:url-changelog: {url-rel-file-base}CHANGELOG.adoc
+:url-contribute: {url-rel-file-base}CONTRIBUTING.adoc
+:url-license: {url-rel-file-base}LICENSE
+:url-tests: {url-rel-tree-base}test
+:url-discuss: https://discuss.asciidoctor.org
+:url-chat: https://chat.asciidoctor.org
+:url-rubygem: https://rubygems.org/gems/asciidoctor
+:url-what-is-asciidoc: {url-docs}/asciidoctor/latest/#relationship-to-asciidoc
+:url-install-docker: https://github.com/asciidoctor/docker-asciidoctor
+:url-opal: https://opalrb.com
+:url-tilt: https://github.com/rtomayko/tilt
+:url-ruby: https://www.ruby-lang.org
 
 Um Detectron2 zu installieren, sind folgende Schritte nötig:
 [WARNING]
