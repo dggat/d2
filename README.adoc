@@ -83,7 +83,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ----
 * 9. Schritt
 
-Überprüfen Sie, od ihr GPU für pytorch aktiviert ist.
+Überprüfen Sie, ob ihr GPU für pytorch aktiviert ist.
 [source]
 ----
 python
@@ -96,14 +96,14 @@ type torch.cuda.is_available()
 und schließlich drücken Sie die Tastenkombination `Strg + z`.
 [IMPORTANT]
 ====
-Sie sollten `True` erhalten. Wenn Sie jedoch feststellen, dass GPU für pytorch nicht aktiviert ist, gehen Sie zu Schritt 1) und versuchen Sie es erneut mit anderen Versionsnummern für cuda und/oder python
+Sie sollten `True` erhalten. Wenn Sie jedoch feststellen, dass GPU für pytorch nicht aktiviert ist, gehen Sie zu Schritt (1) und versuchen Sie es erneut mit anderen Versionsnummern für cuda und/oder python
 ====
 * 10. Schritt
 
 Es müssen folgende Pakete installiert werden:
 [IMPORTATNT]
 ====
-Hinweis. Sie sollten ninja installieren. Andernfalls wird die Einrichtung und Erstellung nicht reibungslos verlaufen.
+Hinweis.
 
 Wenn Git nicht installiert ist, können Sie den folgenden Link benutzen. Bitte beachten Sie, dass Sie die Option `(WEN!) Add a Git Bash Profile to Windows Terminal` im zweiten Schritt aktivieren sollen, damit Sie Git mit durch Anaconda Prompt aufrufen können.
 ====
@@ -114,6 +114,12 @@ conda install -c anaconda cython
 ----
 ----
 pip install opencv-python
+----
+----
+conda install -c anaconda pandas
+----
+----
+conda install -c anaconda numpy
 ----
 ----
 pip install git+https://github.com/facebookresearch/fvcore
