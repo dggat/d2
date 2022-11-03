@@ -134,9 +134,13 @@ pip install git+https://github.com/facebookresearch/fvcore
 Um COCO API zu installieren, wird Microsoft Visial C++ Version 14.0 oder höher benötigt. Wenn es nicht installiert ist, bitte den folgenden Link benutzen.
 https://visualstudio.microsoft.com/de/visual-cpp-build-tools/
 
-
-.Laden Sie das Build Tool herunter.
 image::./images/MSVC++1.png["Laden Sie das Build Tool herunter."]
+
+image::./images/MSVC++2.png["Wählen Sie 'Fortfahren'."]
+
+image::./images/MSVC++3.png["Wählen Sie 'Developmententwicklung mit C++' und dann 'Installieren'."]
+
+Nun können Sie die COCO API installieren.
 
 [source]
 ----
