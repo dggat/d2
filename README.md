@@ -1,4 +1,17 @@
 = Detectron2 Installation für Windows 10 Betribssystem
+// settings:
+:idprefix:
+:idseparator: -
+:source-language: ruby
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 :reproducible:
 :hide-uri-scheme:
 
