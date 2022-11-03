@@ -66,7 +66,7 @@ conda install -c anaconda cudnn
 * 7. Schritt
 
 Installieren Sie pywin32:
-[spurce]
+[source]
 ----
 conda install -c anaconda pywin32
 ----
@@ -112,27 +112,35 @@ Git Installer herunterladen: https://gitforwindows.org/
 ----
 conda install -c anaconda cython
 ----
+[source]
 ----
 pip install opencv-python
 ----
+[source]
 ----
 conda install -c anaconda pandas
 ----
+[source]
 ----
 conda install -c anaconda numpy
 ----
+[source]
 ----
 pip install git+https://github.com/facebookresearch/fvcore
 ----
+[source]
 ----
 pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 ----
+[source]
 ----
 pip install av
 ----
+[source]
 ----
 conda install -c anaconda scipy
 ----
+[source]
 ----
 conda install -c anaconda ninja
 ----
