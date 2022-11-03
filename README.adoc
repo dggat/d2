@@ -14,8 +14,9 @@ Um Detectron2 zu installieren, sind folgende Schritte nötig:
 [WARNING]
 ====
 Vergleichen mit meinem install.txt !
+CUDA Installation fehlt !!!!
 ====
-* 1. Schritt CUDA Installation fehlt !!!!
+* 1. Schritt 
 
 Installieren Sie anaconda
 https://docs.anaconda.com/anaconda/install/windows/
