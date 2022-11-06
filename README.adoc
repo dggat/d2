@@ -80,7 +80,7 @@ Hinweis. Die Versionsnummer von cudatoolkit sollte mit der in Schritt 3 angegebe
 ====
 [source]
 ----
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 ----
 * 9. Schritt
 
