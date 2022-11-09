@@ -11,11 +11,7 @@ endif::[]
 :hide-uri-scheme:
 
 Um Detectron2 zu installieren, sind folgende Schritte nötig:
-[WARNING]
-====
-Vergleichen mit meinem install.txt !
-CUDA Installation fehlt !!!!
-====
+
 * 1. Schritt 
 
 Installieren Sie anaconda
@@ -93,7 +89,7 @@ python
 [sorce]
 ----
 import torch
-type torch.cuda.is_available()
+torch.cuda.is_available()
 ----
 
 und schließlich drücken Sie die Tastenkombination `Strg + z`.
@@ -182,7 +178,7 @@ Hinweis. Der Ordnername für detectron2 sollte anders lauten als 'detectron2'. I
 ====
 [source]
 ----
-hier mein Link zum Repo
+https://github.com/facebookresearch/detectron2.git
 ----
 
 * Schritt 13
