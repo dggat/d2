@@ -213,9 +213,43 @@ Wenn die obigen Schritte erfolgreich sind, dann
 
 * 16. Schritt
 
-Testen Sie Detectron2. Gehen Sie zum Verzeichnis demo/ und führen Sie das folgende Skript aus, indem Sie einen Eingabepfad zu einem beliebigen Bild (z. B. .jpg) angeben.
+copieren Sie die oben aufstehende Dateien traiy.py, detectrion.py, validation.py, utils.py, utils_predictions_extraction.py, split_test_train_valid_datasets.py, detection.py und das Verzeichnis DATASET nach detectron2 (das erste detectron2 Verzeichnis).
+
+*17. Schritt
+[IMPORTATN]
+===
+Alle Ergebnisse werden im Verzeichnis `output` gespeichert.
+Um follgende Schritte erfolgreich auszuführen muss Schtitt 4 wiedeholt werden, fall die virtuelle umgebung nischt activiert ist.
+Als nächstes müssen Sie folgendes im Anaconda prompt eingeben.
+===
+
+traian.py mit Standatdeinstellungen wie in der Bachelorarbeit starten.
 [source]
 ----
-python demo.py --config-file ../configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml --input <path_to_your_image_file.jpg> --opts MODEL.WEIGHTS detectron2://COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x/137849600/model_final_f10217.pkl
+cd <path_to_detectron2_verzeichnis>
 ----
+[source]
+----
+pathon train.py
+----
+
+*18. Schritt
+[IMPORTATN]
+===
+Alle Ergebnisse werden im Anaconda prompr angezeigt.
+===
+
+pathon validadtion.py
+
+[source]
+----
+pathon validation.py
+----
+
+*19 detection.py starten (--list ist eine Liste mit den maximal zu erreichenden Punkten pro Aufgabe und der letzte Wert ist deren Summe).
+[source]
+----
+pathon detection.py --list 7,5,2,13,13,8,9,6,27,90
+----
+
 
